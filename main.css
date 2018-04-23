@@ -1,0 +1,72 @@
+body {
+	background-image: url("media/space.gif");
+	background-size: cover;
+	image-rendering: -webkit-optimize-contrast;
+	font-family: 'Quicksand';
+
+}
+
+#Console {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin: auto;
+	top: 0px;
+	height: 40px;
+	width: 400px;
+}
+
+#Player {
+	height: 64px;
+	width: 64px;
+	background-color: none;
+	position: absolute;
+	left: 10px;
+	top: 200px;
+	z-index: 1;
+}
+
+#Sprite {
+	width:100%;
+	height:100%;
+}
+
+#Asteroid1 {
+	height: 128px;
+	width: 128px;
+	background-size: 128px;
+	background-image: url("media/rocket.gif");
+	position: absolute;
+	left: 25%;
+	top: 0px;
+}
+
+#Moon {
+	height: 96px;
+	width: 96px;
+	background-size: 96px;
+	background-image: url("media/moon_rotate.gif");
+	position: absolute;
+	left: 50%;
+	top: 300px;
+}
+
+#Mars {
+	height: 256px;
+	width: 256px;
+	background-size: 256px;
+	background-image: url("media/mars.png");
+	position: absolute;
+	left: 75%;
+	top: 200px;
+}
+
+#Launch_Button {
+	height: 32px;
+	width: 96px;
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	border-radius: 50px;
+	border-style: none;
+}
